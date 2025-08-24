@@ -1,0 +1,508 @@
+{
+  "site": {
+    "name": "Dentocare",
+    "description": "Your trusted dental care partner",
+    "logo": "/placeholder-logo.svg",
+    "favicon": "/favicon.ico"
+  },
+  "hero": {
+    "badge": "Dental",
+    "title": "Best Dental Clinic You Can Trust.",
+    "titleHighlight": "Dental Clinic",
+    "subtitle": "Experience world-class dental care with our team of experienced professionals. We provide comprehensive dental services in a comfortable, modern environment.",
+    "ctaPrimary": {
+      "text": "Book Appointment",
+      "link": "/appointment"
+    },
+    "ctaSecondary": {
+      "text": "Watch Video",
+      "icon": "PlayCircle",
+      "link": "#"
+    },
+    "image": {
+      "src": "/confident-dentist-portrait.png",
+      "alt": "Experienced dentist",
+      "width": 420,
+      "height": 520
+    },
+    "features": [
+      {
+        "icon": "ShieldCheck",
+        "title": "Satisfaction Guarantee",
+        "description": "We stand behind our results."
+      },
+      {
+        "icon": "Cpu",
+        "title": "Modern Technology",
+        "description": "State-of-the-art equipment and techniques."
+      }
+    ]
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "We Care About Your Dental Health",
+    "description": "At Dentocare, we believe in providing comprehensive dental care that goes beyond just treating symptoms. Our team of experienced professionals is dedicated to helping you achieve optimal oral health through personalized treatment plans and preventive care.",
+    "image": {
+      "src": "/child-dental-care-closeup.png",
+      "alt": "Clinic in action",
+      "width": 1200,
+      "height": 600
+    },
+    "stats": [
+      {
+        "value": "5000+",
+        "label": "Happy Patients"
+      },
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "100%",
+        "label": "Satisfaction Rate"
+      },
+      {
+        "value": "24/7",
+        "label": "Emergency Care"
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "Stethoscope",
+        "title": "Complete Dental Care",
+        "description": "Preventive, restorative & cosmetic care under one roof."
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Emergency Care",
+        "description": "Same‑day pain relief and urgent treatments."
+      },
+      {
+        "icon": "Smile",
+        "title": "Comfort‑First",
+        "description": "Gentle, patient‑centered approach for all ages."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Modern Technology",
+        "description": "Digital X‑rays, intraoral cameras & 3D imaging."
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive dental care for you and your family",
+    "description": "Dental or oral health is concerned with your teeth, gums, and mouth. We offer a wide range of services to meet all your dental needs.",
+    "items": [
+      {
+        "id": "dental-checkup",
+        "title": "Dental Checkup & Cleaning",
+        "description": "Regular dental checkups and professional cleaning to maintain optimal oral health and prevent dental problems.",
+        "icon": "BadgeCheck",
+        "image": "/dental-checkup.png",
+        "slug": "dental-checkup-cleaning",
+        "features": [
+          "Comprehensive oral examination",
+          "Professional teeth cleaning",
+          "X-ray imaging when needed",
+          "Oral cancer screening"
+        ]
+      },
+      {
+        "id": "dental-fillings",
+        "title": "Dental Fillings",
+        "description": "Restore damaged teeth with modern, durable fillings that match your natural tooth color and provide long-lasting protection.",
+        "icon": "BadgeCheck",
+        "image": "/dental-fillings.png",
+        "slug": "dental-fillings",
+        "features": [
+          "Tooth-colored composite fillings",
+          "Minimal tooth preparation",
+          "Long-lasting durability",
+          "Natural appearance"
+        ]
+      },
+      {
+        "id": "root-canal",
+        "title": "Root Canal Therapy",
+        "description": "Save severely damaged or infected teeth with advanced root canal treatment in a comfortable, pain-free environment.",
+        "icon": "BadgeCheck",
+        "image": "/root-canal-therapy.png",
+        "slug": "root-canal-therapy",
+        "features": [
+          "Advanced pain management",
+          "Single-visit treatment",
+          "High success rate",
+          "Preserves natural tooth"
+        ]
+      },
+      {
+        "id": "dental-implants",
+        "title": "Dental Implants",
+        "description": "Replace missing teeth with natural-looking dental implants that provide permanent, stable solutions for a complete smile.",
+        "icon": "BadgeCheck",
+        "image": "/dental-implants.png",
+        "slug": "dental-implants",
+        "features": [
+          "Titanium implant posts",
+          "Natural-looking crowns",
+          "Lifetime durability",
+          "Improved chewing function"
+        ]
+      },
+      {
+        "id": "teeth-whitening",
+        "title": "Teeth Whitening",
+        "description": "Achieve a brighter, more confident smile with professional teeth whitening treatments that deliver noticeable results.",
+        "icon": "BadgeCheck",
+        "image": "/teeth-whitening.png",
+        "slug": "teeth-whitening",
+        "features": [
+          "Professional-grade whitening",
+          "Custom treatment plans",
+          "Long-lasting results",
+          "Safe and effective"
+        ]
+      },
+      {
+        "id": "invisalign",
+        "title": "Invisalign Clear Aligners",
+        "description": "Straighten your teeth discreetly with custom-made clear aligners that are comfortable, removable, and virtually invisible.",
+        "icon": "BadgeCheck",
+        "image": "/invisalign-clear-aligners.png",
+        "slug": "invisalign-clear-aligners",
+        "features": [
+          "Custom-made aligners",
+          "Removable and comfortable",
+          "Virtually invisible",
+          "Digital treatment planning"
+        ]
+      }
+    ]
+  },
+  "appointment": {
+    "title": "Have a Question? Request a Call Back",
+    "subtitle": "Leave your details and a brief query. Our team will call you back shortly.",
+    "form": {
+      "fields": [
+        {
+          "name": "name",
+          "label": "Full Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "Enter your full name"
+        },
+        {
+          "name": "email",
+          "label": "Email Address",
+          "type": "email",
+          "required": true,
+          "placeholder": "Enter your email address"
+        },
+        {
+          "name": "phone",
+          "label": "Phone Number",
+          "type": "tel",
+          "required": true,
+          "placeholder": "Enter your phone number"
+        },
+        {
+          "name": "age",
+          "label": "Age",
+          "type": "number",
+          "required": false,
+          "placeholder": "e.g., 32",
+          "min": 0,
+          "max": 120
+        },
+        {
+          "name": "message",
+          "label": "Your Query",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "Tell us about your dental concern or question"
+        }
+      ],
+      "submitText": "Request a Call Back",
+      "loadingText": "Sending...",
+      "successText": "We will call you back ✓",
+      "errorText": "Something went wrong. Please try again."
+    },
+    "contact": {
+      "title": "Visit or Contact Us",
+      "address": "123 Dental Care Street, Healthcare City, HC 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@dentocare.com",
+      "hours": "Mon–Sat: 10:00 AM – 6:00 PM",
+      "responseTime": "We reply within 1 business day",
+      "mapNote": "Tap map to open in Google Maps"
+    }
+  },
+  "doctors": {
+    "title": "Our Dental Care Specialist",
+    "subtitle": "Meet our experienced, friendly, and caring medical team",
+    "items": [
+      {
+        "id": "dr-smith",
+        "name": "Dr. Sarah Smith",
+        "specialty": "General Dentist",
+        "bio": "Dr. Sarah Smith has over 15 years of experience in general dentistry. She specializes in preventive care and patient education.",
+        "photoUrl": "/placeholder-user.jpg",
+        "education": "DDS - University of Dental Medicine",
+        "experience": "15+ years",
+        "socials": {
+          "linkedin": "https://linkedin.com/in/dr-sarah-smith",
+          "twitter": "https://twitter.com/drsarahsmith",
+          "instagram": "https://instagram.com/drsarahsmith"
+        }
+      },
+      {
+        "id": "dr-johnson",
+        "name": "Dr. Michael Johnson",
+        "specialty": "Orthodontist",
+        "bio": "Dr. Michael Johnson is a certified orthodontist with expertise in braces, Invisalign, and other orthodontic treatments.",
+        "photoUrl": "/placeholder-user.jpg",
+        "education": "DDS, MS - Orthodontics",
+        "experience": "12+ years",
+        "socials": {
+          "linkedin": "https://linkedin.com/in/dr-michael-johnson",
+          "twitter": "https://twitter.com/drmichaeljohnson"
+        }
+      },
+      {
+        "id": "dr-williams",
+        "name": "Dr. Emily Williams",
+        "specialty": "Pediatric Dentist",
+        "bio": "Dr. Emily Williams specializes in children's dental care, making dental visits fun and comfortable for young patients.",
+        "photoUrl": "/placeholder-user.jpg",
+        "education": "DDS - Pediatric Dentistry",
+        "experience": "8+ years",
+        "socials": {
+          "linkedin": "https://linkedin.com/in/dr-emily-williams",
+          "instagram": "https://instagram.com/dremilywilliams"
+        }
+      },
+      {
+        "id": "dr-brown",
+        "name": "Dr. David Brown",
+        "specialty": "Oral Surgeon",
+        "bio": "Dr. David Brown is an experienced oral surgeon specializing in complex dental procedures and implant surgery.",
+        "photoUrl": "/placeholder-user.jpg",
+        "education": "DDS, MD - Oral Surgery",
+        "experience": "20+ years",
+        "socials": {
+          "linkedin": "https://linkedin.com/in/dr-david-brown"
+        }
+      }
+    ]
+  },
+  "blog": {
+    "title": "From Our Blog",
+    "subtitle": "News, tips, and dental health insights",
+    "viewAllText": "See more posts →",
+    "viewAllLink": "/blog",
+    "posts": [
+      {
+        "id": "oral-hygiene-tips",
+        "title": "Essential Oral Hygiene Tips for a Healthy Smile",
+        "excerpt": "Learn the fundamental practices for maintaining excellent oral health and preventing common dental problems.",
+        "content": "Maintaining good oral hygiene is essential for overall health...",
+        "date": "2024-01-15",
+        "author": "Dr. Sarah Smith",
+        "category": "Oral Health",
+        "tags": ["hygiene", "prevention", "tips"],
+        "coverImage": "/dental-checkup.png",
+        "slug": "oral-hygiene-tips",
+        "readTime": "5 min read"
+      },
+      {
+        "id": "choosing-toothpaste",
+        "title": "How to Choose the Right Toothpaste for Your Needs",
+        "excerpt": "With so many toothpaste options available, find out which one is best suited for your specific dental concerns.",
+        "content": "Selecting the right toothpaste can make a significant difference...",
+        "date": "2024-01-10",
+        "author": "Dr. Michael Johnson",
+        "category": "Products",
+        "tags": ["toothpaste", "products", "selection"],
+        "coverImage": "/teeth-whitening.png",
+        "slug": "choosing-toothpaste",
+        "readTime": "4 min read"
+      },
+      {
+        "id": "dental-anxiety",
+        "title": "Overcoming Dental Anxiety: Tips for a Relaxing Visit",
+        "excerpt": "Dental anxiety is common but manageable. Discover effective strategies to make your dental visits more comfortable.",
+        "content": "Dental anxiety affects millions of people worldwide...",
+        "date": "2024-01-05",
+        "author": "Dr. Emily Williams",
+        "category": "Mental Health",
+        "tags": ["anxiety", "comfort", "relaxation"],
+        "coverImage": "/confident-dentist-portrait.png",
+        "slug": "dental-anxiety",
+        "readTime": "6 min read"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Reviews From Our Patients",
+    "subtitle": "We believe that honest feedback is essential for improving experiences and outcomes.",
+    "viewAllText": "View all testimonials →",
+    "viewAllLink": "/testimonials",
+    "items": [
+      {
+        "id": "testimonial-1",
+        "name": "Jennifer Martinez",
+        "role": "Patient",
+        "message": "Dr. Smith and her team are absolutely amazing! They made my dental experience comfortable and pain-free. The modern equipment and friendly staff made all the difference.",
+        "rating": 5,
+        "avatar": "/placeholder-user.jpg",
+        "date": "2024-01-20",
+        "service": "Dental Checkup & Cleaning"
+      },
+      {
+        "id": "testimonial-2",
+        "name": "Robert Chen",
+        "role": "Patient",
+        "message": "I was nervous about getting dental implants, but Dr. Brown explained everything clearly and the procedure was smooth. My new smile looks natural and feels great!",
+        "rating": 5,
+        "avatar": "/placeholder-user.jpg",
+        "date": "2024-01-18",
+        "service": "Dental Implants"
+      },
+      {
+        "id": "testimonial-3",
+        "name": "Amanda Thompson",
+        "role": "Patient",
+        "message": "The Invisalign treatment with Dr. Johnson exceeded my expectations. The results are incredible and the process was so convenient. Highly recommend!",
+        "rating": 5,
+        "avatar": "/placeholder-user.jpg",
+        "date": "2024-01-15",
+        "service": "Invisalign"
+      },
+      {
+        "id": "testimonial-4",
+        "name": "Marcus Rodriguez",
+        "role": "Patient",
+        "message": "Emergency dental care when I needed it most. The team was professional, caring, and got me out of pain quickly. Thank you!",
+        "rating": 5,
+        "avatar": "/placeholder-user.jpg",
+        "date": "2024-01-12",
+        "service": "Emergency Care"
+      },
+      {
+        "id": "testimonial-5",
+        "name": "Lisa Park",
+        "role": "Patient",
+        "message": "Dr. Williams is wonderful with children. My kids actually look forward to their dental visits now. The office is kid-friendly and the staff is patient and kind.",
+        "rating": 5,
+        "avatar": "/placeholder-user.jpg",
+        "date": "2024-01-10",
+        "service": "Pediatric Dentistry"
+      },
+      {
+        "id": "testimonial-6",
+        "name": "Thomas Wilson",
+        "role": "Patient",
+        "message": "Professional teeth whitening gave me the confidence boost I needed. The results are amazing and the process was comfortable. Great experience overall!",
+        "rating": 5,
+        "avatar": "/placeholder-user.jpg",
+        "date": "2024-01-08",
+        "service": "Teeth Whitening"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Your trusted partner for comprehensive dental care. We provide modern, comfortable, and effective dental services for the whole family.",
+    "quickLinks": [
+      {
+        "title": "Services",
+        "links": [
+          { "text": "Dental Checkup", "url": "/services/dental-checkup-cleaning" },
+          { "text": "Dental Fillings", "url": "/services/dental-fillings" },
+          { "text": "Root Canal", "url": "/services/root-canal-therapy" },
+          { "text": "Dental Implants", "url": "/services/dental-implants" },
+          { "text": "Teeth Whitening", "url": "/services/teeth-whitening" },
+          { "text": "Invisalign", "url": "/services/invisalign-clear-aligners" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "text": "About Us", "url": "/about" },
+          { "text": "Our Team", "url": "/team" },
+          { "text": "Careers", "url": "/careers" },
+          { "text": "Blog", "url": "/blog" },
+          { "text": "Testimonials", "url": "/testimonials" },
+          { "text": "Contact", "url": "/contact" }
+        ]
+      },
+      {
+        "title": "Support",
+        "links": [
+          { "text": "Appointments", "url": "/appointment" },
+          { "text": "Emergency Care", "url": "/emergency" },
+          { "text": "Insurance", "url": "/insurance" },
+          { "text": "Payment Plans", "url": "/payment-plans" },
+          { "text": "FAQ", "url": "/faq" },
+          { "text": "Patient Forms", "url": "/forms" }
+        ]
+      }
+    ],
+    "contact": {
+      "address": "123 Dental Care Street, Healthcare City, HC 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@dentocare.com",
+      "hours": "Mon–Sat: 10:00 AM – 6:00 PM"
+    },
+    "social": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/dentocare",
+        "icon": "Facebook"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/dentocare",
+        "icon": "Twitter"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://instagram.com/dentocare",
+        "icon": "Instagram"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/company/dentocare",
+        "icon": "LinkedIn"
+      }
+    ],
+    "legal": [
+      { "text": "Privacy Policy", "url": "/privacy" },
+      { "text": "Terms of Service", "url": "/terms" },
+      { "text": "Cookie Policy", "url": "/cookies" },
+      { "text": "Code of Conduct", "url": "/code-of-conduct" }
+    ],
+    "copyright": "© 2024 Dentocare. All rights reserved."
+  },
+  "navigation": {
+    "main": [
+      { "text": "Home", "url": "/" },
+      { "text": "Services", "url": "/services" },
+      { "text": "About", "url": "/about" },
+      { "text": "Doctors", "url": "/doctors" },
+      { "text": "Blog", "url": "/blog" },
+      { "text": "Contact", "url": "/contact" }
+    ],
+    "cta": {
+      "text": "Book Appointment",
+      "url": "/appointment"
+    }
+  },
+  "seo": {
+    "title": "Dentocare - Your Trusted Dental Care Partner",
+    "description": "Experience world-class dental care with our team of experienced professionals. We provide comprehensive dental services in a comfortable, modern environment.",
+    "keywords": "dental care, dentist, dental clinic, teeth whitening, dental implants, orthodontics, pediatric dentistry",
+    "ogImage": "/dental-landing.webp",
+    "canonical": "https://dentocare.com"
+  }
+}
