@@ -333,6 +333,4 @@ export const getAllDoctors = () => dataService.getDoctors().items
 export const getAllTestimonials = () => dataService.getTestimonials().items
 
 // Export types for use in components
-export type {
-  SiteData
-}
+

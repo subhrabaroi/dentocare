@@ -47,5 +47,5 @@ export interface AboutData {
 // Form status types
 export type FormStatus = "idle" | "loading" | "success" | "error"
 
-// Re-export types from clinic-api for convenience
-export type { ClinicData, Service, BlogPost } from "@/lib/clinic-api"
+// Re-export types from clinic-data for convenience
+export type { ClinicData, Service, BlogPost } from "@/lib/clinic-data"

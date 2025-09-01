@@ -152,7 +152,8 @@ import { ShieldCheck } from "lucide-react"
 - Consistent color scheme and spacing
 
 ### Data Management
-- API functions in `lib/clinic-api.ts`
+- Static data in `data.json`
+- Data service functions in `lib/clinic-data.ts`
 - Type-safe data fetching
 - Static generation for performance
 

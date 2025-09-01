@@ -1,11 +1,11 @@
-import Image from "next/image"
-import { Card, CardContent } from "@/components/ui/card"
-import { Benefit } from "@/components/features"
-import { renderIcon } from "@/lib/icon-utils"
-import type { SiteData } from "@/lib/data-service"
+import Image from "next/image";
+import { Card, CardContent } from "@/components/ui/card";
+import { Benefit } from "@/components/features";
+import { renderIcon } from "@/lib/icon-utils";
+import type { SiteData } from "@/lib/data-service";
 
 interface AboutSectionProps {
-  about: SiteData['about']
+  about: SiteData["about"];
 }
 
 export function AboutSection({ about }: AboutSectionProps) {
@@ -16,7 +16,9 @@ export function AboutSection({ about }: AboutSectionProps) {
           {/* About copy + benefits */}
           <Card className="overflow-hidden border-0 shadow-none">
             <CardContent className="p-6">
-              <h3 className="mb-2 text-sm font-semibold text-blue-600 uppercase tracking-wide">{about.badge}</h3>
+              <h3 className="mb-2 text-sm font-semibold text-blue-600 uppercase tracking-wide">
+                {about.badge}
+              </h3>
               <h2 className="text-3xl font-bold">{about.title}</h2>
               <p className="mt-3 text-muted-foreground">{about.description}</p>
 
@@ -24,7 +26,9 @@ export function AboutSection({ about }: AboutSectionProps) {
                 {about.benefits.map((benefit, index) => (
                   <Benefit
                     key={index}
-                    icon={renderIcon(benefit.icon, { className: "h-5 w-5 text-blue-600" })}
+                    icon={renderIcon(benefit.icon, {
+                      className: "h-5 w-5 text-blue-600",
+                    })}
                     title={benefit.title}
                     desc={benefit.description}
                   />
@@ -36,7 +40,7 @@ export function AboutSection({ about }: AboutSectionProps) {
           {/* Stats card with top image spanning card width (smaller and rounded) */}
           <Card className="overflow-visible border-0 shadow-none">
             <CardContent className="p-0">
-              <div className="relative">
+              <div className="relative flex justify-center">
                 <Image
                   src={about.image.src}
                   alt={about.image.alt}
@@ -44,6 +48,7 @@ export function AboutSection({ about }: AboutSectionProps) {
                   height={about.image.height}
                   className="h-48 w-full rounded-3xl object-cover sm:h-56"
                   priority
+                  style={{ width: about.image.width }}
                 />
               </div>
               <div className="grid grid-cols-2 gap-4 p-6">
@@ -51,10 +56,17 @@ export function AboutSection({ about }: AboutSectionProps) {
                   <div
                     key={index}
                     className="rounded-2xl border p-5 text-center"
-                    style={{ background: "linear-gradient(135deg, rgba(59,130,246,0.03), rgba(16,185,129,0.03))" }}
+                    style={{
+                      background:
+                        "linear-gradient(135deg, rgba(59,130,246,0.03), rgba(16,185,129,0.03))",
+                    }}
                   >
-                    <div className="text-2xl font-extrabold text-blue-600">{stat.value}</div>
-                    <div className="text-xs text-muted-foreground">{stat.label}</div>
+                    <div className="text-2xl font-extrabold text-blue-600">
+                      {stat.value}
+                    </div>
+                    <div className="text-xs text-muted-foreground">
+                      {stat.label}
+                    </div>
                   </div>
                 ))}
               </div>
@@ -63,5 +75,5 @@ export function AboutSection({ about }: AboutSectionProps) {
         </div>
       </div>
     </section>
-  )
+  );
 }

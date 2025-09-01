@@ -6,8 +6,8 @@
     "favicon": "/favicon.ico"
   },
   "hero": {
-    "badge": "Dental",
-    "title": "Best Dental Clinic You Can Trust.",
+    "badge": "Dentocare",
+    "title": "The Best Dental Clinic You Can Trust.",
     "titleHighlight": "Dental Clinic",
     "subtitle": "Experience world-class dental care with our team of experienced professionals. We provide comprehensive dental services in a comfortable, modern environment.",
     "ctaPrimary": {
@@ -40,13 +40,13 @@
   },
   "about": {
     "badge": "About Us",
-    "title": "We Care About Your Dental Health",
+    "title": "We Care About You",
     "description": "At Dentocare, we believe in providing comprehensive dental care that goes beyond just treating symptoms. Our team of experienced professionals is dedicated to helping you achieve optimal oral health through personalized treatment plans and preventive care.",
     "image": {
       "src": "/child-dental-care-closeup.png",
       "alt": "Clinic in action",
-      "width": 1200,
-      "height": 600
+      "width": 420,
+      "height": 520
     },
     "stats": [
       {
