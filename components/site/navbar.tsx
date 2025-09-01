@@ -39,7 +39,7 @@ export default function Navbar() {
           <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-white font-bold">
             D
           </span>
-          <span className="font-semibold">Dental</span>
+          <span className="font-semibold">Dentocare</span>
         </Link>
         {/* Desktop Navigation */}
         <nav className="hidden items-center gap-6 md:flex">

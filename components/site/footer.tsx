@@ -9,7 +9,7 @@ export default function Footer() {
             <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-white font-bold">
               D
             </span>
-            <span className="font-semibold">Dental</span>
+            <span className="font-semibold">Dentocare</span>
           </div>
           <p className="mt-3 text-sm text-muted-foreground">Compassionate dental care with cutting-edge technology.</p>
         </div>
