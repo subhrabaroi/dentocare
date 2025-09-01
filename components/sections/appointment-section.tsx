@@ -1,15 +1,14 @@
-import { Card, CardContent } from "@/components/ui/card"
-import { renderIcon } from "@/lib/icon-utils"
-import { QueryForm } from "@/components/forms"
-import type { SiteData } from "@/lib/data-service"
+import { Card, CardContent } from "@/components/ui/card";
+import { renderIcon } from "@/lib/icon-utils";
+import { QueryForm } from "@/components/forms";
+import type { SiteData } from "@/lib/data-service";
 
 interface AppointmentSectionProps {
-  appointment: SiteData['appointment']
+  appointment: SiteData["appointment"];
 }
 
 export function AppointmentSection({ appointment }: AppointmentSectionProps) {
-  const mapsQuery = encodeURIComponent(appointment.contact.address)
-  const mapsHref = `https://www.google.com/maps?q=${mapsQuery}`
+  const mapsHref = "https://maps.app.goo.gl/qoynPVZWMaQtQnGE9";
 
   return (
     <section id="appointment" className="w-full bg-white">
@@ -19,7 +18,9 @@ export function AppointmentSection({ appointment }: AppointmentSectionProps) {
           <Card className="h-full min-h-[560px] border-0 shadow-sm">
             <CardContent className="flex h-full flex-col p-6">
               <h3 className="mb-1 text-2xl font-bold">{appointment.title}</h3>
-              <p className="text-sm text-muted-foreground">{appointment.subtitle}</p>
+              <p className="text-sm text-muted-foreground">
+                {appointment.subtitle}
+              </p>
               <div className="mt-4 flex min-h-0 flex-1">
                 <QueryForm formConfig={appointment.form} />
               </div>
@@ -33,7 +34,7 @@ export function AppointmentSection({ appointment }: AppointmentSectionProps) {
             <div className="relative">
               <iframe
                 title="Dental Clinic Location"
-                src={`https://www.google.com/maps?q=${mapsQuery}&output=embed`}
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28313.843531334845!2d95.3333179!3d27.4932079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x373f6ae2a60bc631%3A0x411d75f726a6019!2sDentocare%20Dental%20Clinic!5e0!3m2!1sen!2sin!4v1756703674025!5m2!1sen!2sin"
                 className="h-56 w-full pointer-events-none sm:h-64 lg:h-72"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
@@ -48,27 +49,47 @@ export function AppointmentSection({ appointment }: AppointmentSectionProps) {
               />
             </div>
             <div className="p-6">
-              <h4 className="mb-3 text-lg font-semibold">{appointment.contact.title}</h4>
+              <h4 className="mb-3 text-lg font-semibold">
+                {appointment.contact.title}
+              </h4>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  {renderIcon("MapPin", { className: "mt-0.5 h-5 w-5 text-blue-600" })}
+                  {renderIcon("MapPin", {
+                    className: "mt-0.5 h-5 w-5 text-blue-600",
+                  })}
                   <div>
-                    <div className="font-medium">{appointment.contact.address}</div>
-                    <div className="text-sm text-muted-foreground">{appointment.contact.mapNote}</div>
+                    <div className="font-medium">
+                      {appointment.contact.address}
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      {appointment.contact.mapNote}
+                    </div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  {renderIcon("Phone", { className: "mt-0.5 h-5 w-5 text-blue-600" })}
+                  {renderIcon("Phone", {
+                    className: "mt-0.5 h-5 w-5 text-blue-600",
+                  })}
                   <div>
-                    <div className="font-medium">{appointment.contact.phone}</div>
-                    <div className="text-sm text-muted-foreground">{appointment.contact.hours}</div>
+                    <div className="font-medium">
+                      {appointment.contact.phone}
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      {appointment.contact.hours}
+                    </div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  {renderIcon("Mail", { className: "mt-0.5 h-5 w-5 text-blue-600" })}
+                  {renderIcon("Mail", {
+                    className: "mt-0.5 h-5 w-5 text-blue-600",
+                  })}
                   <div>
-                    <div className="font-medium">{appointment.contact.email}</div>
-                    <div className="text-sm text-muted-foreground">{appointment.contact.responseTime}</div>
+                    <div className="font-medium">
+                      {appointment.contact.email}
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      {appointment.contact.responseTime}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -77,5 +98,5 @@ export function AppointmentSection({ appointment }: AppointmentSectionProps) {
         </Card>
       </div>
     </section>
-  )
+  );
 }
